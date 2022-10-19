@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>TABLAS en html&nbsp;</h1>
+</header>
+<nav>
+  <ul id="menu">
+    <li><a href="Formatos_textos .html">Formatos</a>&nbsp;</li>
+    <li><a href="Listas.html">Listas&nbsp;</a></li>
+    <li>&nbsp;<a href="Tablas .html">Tablas</a>&nbsp;</li>
+    <li><a href="Enlaces.html">Enlaces</a>&nbsp;</li>
+    <li><a href="Imagenes.html">Imágenes</a>&nbsp;</li>
+	<li><a href="Audio.html">Audio</a>&nbsp;</li>
+    <li><a href="Video.html">Video</a>&nbsp;</li>
+	<li><a href="Formulario.html">Formularios</a>&nbsp;</li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Tabla simple&nbsp; &nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, debitis libero omnis aperiam facere corporis incidunt voluptatum suscipit iste, neque voluptate exercitationem vitae nobis eaque, natus! Doloremque impedit totam quos.100</p>
+    <table border="1">
+		<thead>
+			<tr>
+				<th>NOMBRE(S)</th>
+				<th>APELLIDO</th>
+				<th>TELEFONO</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Maria</td>
+				<td>Suarez Palacios</td>
+				<td>2224567890</td>
+			</tr>
+			<tr>
+				<td>Carlos</td>
+				<td>Ponce Serrano</td>
+				<td>2225649832</td>
+			</tr>
+			<tr>
+				<td>Mariano</td>
+				<td>Guzman Mariscal</td>
+				<td>2224165297</td>
+			</tr>
+			<tr>
+				<td>Alberto</td>
+				<td>Estevez Meza</td>
+				<td>2226987463</td>
+			</tr>
+			<tr>
+				<td>Andrea</td>
+				<td>Leon Muñoz</td>
+				<td>2221481157</td>
+			</tr>
+		</tbody>
+		<tfoot></tfoot>
+	</table>
+</section>
+  <section>
+    <h2>Tabla modificada a traves de CSS</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, debitis libero omnis aperiam facere corporis&nbsp; &nbsp;incidunt voluptatum suscipit iste, neque voluptate exercitationem vitae nobis eaque, natus! Doloremque impedit totam quos.100</p>
+    <table border="1" id="tabla_1">
+      <thead>
+        <tr>
+          <th>NOMBRE(S)</th>
+          <th>APELLIDO</th>
+          <th>TELEFONO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Maria</td>
+          <td>Suarez Palacios</td>
+          <td>2224567890</td>
+        </tr>
+        <tr>
+          <td>Carlos</td>
+          <td>Ponce Serrano</td>
+          <td>2225649832</td>
+        </tr>
+        <tr>
+          <td>Mariano</td>
+          <td>Guzman Mariscal</td>
+          <td>2224165297</td>
+        </tr>
+        <tr>
+          <td>Alberto</td>
+          <td>Estevez Meza</td>
+          <td>2226987463</td>
+        </tr>
+        <tr>
+          <td>Andrea</td>
+          <td>Leon Muñoz</td>
+          <td>2221481157</td>
+        </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+    </section>
+  <section>
+    <h2>Tabla modificada en HOVER&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, debitis libero omnis aperiam facere corporis incidunt voluptatum suscipit iste, neque voluptate exercitationem vitae nobis eaque, natus! Doloremque impedit totam quos.100</p>
+    <table border="1" class="tabla_2">
+      <thead>
+        <tr>
+          <th>NOMBRE(S)</th>
+          <th>APELLIDO</th>
+          <th>TELEFONO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Maria</td>
+          <td>Suarez Palacios</td>
+          <td>2224567890</td>
+        </tr>
+        <tr>
+          <td>Carlos</td>
+          <td>Ponce Serrano</td>
+          <td>2225649832</td>
+        </tr>
+        <tr>
+          <td>Mariano</td>
+          <td>Guzman Mariscal</td>
+          <td>2224165297</td>
+        </tr>
+        <tr>
+          <td>Alberto</td>
+          <td>Estevez Meza</td>
+          <td>2226987463</td>
+        </tr>
+        <tr>
+          <td>Andrea</td>
+          <td>Leon Muñoz</td>
+          <td>2221481157</td>
+        </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+    </section>
+  <section>
+    <h2>Tabla cebra (por filas impares o pares)</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, debitis libero omnis aperiam facere corporis incidunt voluptatum suscipit iste, neque voluptate exercitationem vitae nobis eaque, natus! Doloremque impedit totam quos.100</p>
+    <table width="80%" border="1" cellspacing="2" id="tabla_3">
+	<thead>
+		<tr>
+			<th>Nombre&nbsp;<br>
+			  </th>
+<th>Edad</th>
+			<th>Email</th>
+			<th>Telefono&nbsp;</th>
+		</tr>
+	</thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Astrid Carbaja Guevara</td>
+          <td style="text-align: center">&nbsp;21</td>
+          <td>&nbsp;astrid@gmail.com</td>
+          <td>&nbsp;2221564987</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Victor Concha Lobato</td>
+          <td style="text-align: center">&nbsp;23</td>
+          <td>&nbsp;vilobato@gmail.com</td>
+          <td>&nbsp;2226548976</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Axel Alanis Carrillo</td>
+          <td style="text-align: center">&nbsp;22</td>
+          <td>&nbsp;axelcarrillo@gmail.com</td>
+          <td>&nbsp;2224569871</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Samuel Vazquez Ortega</td>
+          <td style="text-align: center">&nbsp;21</td>
+          <td>&nbsp;samuelorte@gmail.com</td>
+          <td>&nbsp;2221156497</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Brenda Guzman Meza</td>
+          <td style="text-align: center">&nbsp;23</td>
+          <td>&nbsp;brenguzman@gmail.com</td>
+          <td>&nbsp;2224165297</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Andrea Mariscal Estevez</td>
+          <td style="text-align: center">&nbsp;24</td>
+          <td>&nbsp;andreestevez@gmail.com</td>
+          <td>&nbsp;2225665588</td>
+        </tr>
+		<tr>
+			<td>Mario Perez Gonzalez</td>
+			<td style="text-align: center">22</td>
+			<td>2221459811</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Mario Perez Gonzalez</td>
+			<td style="text-align: center">22</td>
+			<td>2221459811</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Mario Perez Gonzalez</td>
+			<td style="text-align: center">22</td>
+			<td>2221459811</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Mario Perez Gonzalez</td>
+			<td style="text-align: center">22</td>
+			<td>2221459811</td>
+			<td></td>
+		</tr>
+      </tbody>
+    </table>
+    </section>
+<section>
+<h2>Tabla receptiva</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, debitis libero omnis aperiam facere corporis incidunt voluptatum suscipit iste, neque voluptate exercitationem vitae nobis eaque, natus! Doloremque impedit totam quos.100</p>
+    <div id="overflow_x">
+      <table width="80%" border="1" cellspacing="2" id="tabla_4">
+        <tbody>
+          <tr>
+            <th scope="col">&nbsp;Nombre</th>
+            <th scope="col">Apellido&nbsp;</th>
+            <th scope="col">&nbsp;Ronda 1</th>
+            <th scope="col">Ronda 2&nbsp;&nbsp;</th>
+            <th scope="col">Ronda 3&nbsp;</th>
+            <th scope="col">&nbsp;Ronda 4</th>
+            <th scope="col">Ronda 5&nbsp;</th>
+            <th scope="col">Ronda 6&nbsp;&nbsp;</th>
+            <th scope="col">Ronda 7&nbsp;</th>
+            <th scope="col">Ronda 8&nbsp;</th>
+            <th scope="col">&nbsp;Ronda 9&nbsp;</th>
+            <th scope="col">Ronda 10&nbsp;</th>
+          </tr>
+          <tr>
+            <td>&nbsp;Mariana&nbsp;</td>
+            <td>&nbsp;Diaz&nbsp;</td>
+            <td>&nbsp;10</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;8</td>
+            <td>9</td>
+            <td>&nbsp;6</td>
+            <td>&nbsp;10</td>
+            <td>&nbsp;10</td>
+          </tr>
+          <tr>
+            <td>&nbsp;Cesar&nbsp;</td>
+            <td>&nbsp;Mercado</td>
+            <td>&nbsp;6</td>
+            <td>&nbsp;5</td>
+            <td>&nbsp;7</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;5</td>
+            <td>&nbsp;6</td>
+            <td>&nbsp;3</td>
+            <td>&nbsp;7</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;10</td>
+          </tr>
+          <tr>
+            <td>&nbsp;Julio</td>
+            <td>&nbsp;Lima</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;10</td>
+            <td>&nbsp;10</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;5</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;10</td>
+            <td>&nbsp;10</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por<a href="../index.html">Brenda Patricia Guzmán Meza</a>&nbsp;</h6>
+</footer>
+</body>
+</html>

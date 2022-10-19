@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios en html&nbsp;&nbsp;</h1>
+</header>
+<nav>
+  <ul id="menu">
+    <li><a href="Formatos_textos .html">Formatos</a>&nbsp;</li>
+    <li><a href="Listas.html">Listas&nbsp;</a></li>
+    <li>&nbsp;<a href="Tablas .html">Tablas</a>&nbsp;</li>
+    <li><a href="Enlaces.html">Enlaces</a>&nbsp;</li>
+    <li><a href="Imagenes.html">Imágenes</a>&nbsp;</li>
+	<li><a href="Audio.html">Audio</a>&nbsp;</li>
+    <li><a href="Video.html">Video</a>&nbsp;</li>
+	<li><a href="Formulario.html">Formularios</a>&nbsp;</li>
+  </ul>
+</nav>
+<main>
+  <section>
+	  
+    <h2 id="marcador1">Formulario 1&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe veritatis, deserunt hic vel natus minima obcaecati optio plamet minus, quae reiciendis laboriosam consequatur doloribus numquam, dolor neque soluta magnam est quos? Soluta omnis quasi, distinctio.</p>
+    <form id="form1" name="form1" method="get">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="apellido" id="apellido">
+      <input type="submit" name="submit" id="submit" value="Enviar">
+    </form>
+  </section>
+<section>
+    <h2 id="marcador2">Formulario con radiobutton&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe veritatis, deserunt hic vel natus minima obcaecati optio plamet minus, quae reiciendis laboriosam consequatur doloribus numquam, dolor neque soluta magnam est quos? Soluta omnis quasi, distinctio.</p>
+<form action="Procesamiento.html" method="get" name="form2" id="form2">
+      <label>Elige tu género&nbsp;&nbsp;</label>
+      <table width="200" class="celda_centrada">
+        <tr>
+          <td><label>
+            <input type="radio" name="Genero " value="fem" id="Genero_0">
+            Femenino</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="Genero " value="mas" id="Genero_1">
+            Masculino </label></td>
+        </tr>
+      </table>
+      <label for="">¿De que país nos visitas?:</label>
+      <select name="pais" id="pais">
+        <option value="mx">México </option>
+        <option value="es">España</option>
+        <option value="ar">Argentina</option>
+        <option value="it">Italia</option>
+        <option value="us">Estados Unidos</option>
+      </select>
+      <p>
+        <label>¿Dónde residiras durante tu estancia en el país?&nbsp;</label><br>
+		  
+        <label>
+          <input type="checkbox" name="Residencia_temporal " value="domicilio_particular " id="Residencia_temporal_0">
+          Casa de un amigo </label>
+        <br>
+        <label>
+          <input type="checkbox" name="Residencia_temporal " value="hotel " id="Residencia_temporal_1">
+          Hotel </label>
+        <br>
+        <label>
+          <input type="checkbox" name="Residencia_temporal " value="airbnb" id="Residencia_temporal_2">
+          Airbnb</label>
+        <br>
+      </p>
+<input type="submit" name="boton2" id="boton2" value="Enviar">
+      
+    </form>
+  </section>
+<section>
+  <h2 id="marcador3">Formulario con type password, color, date, email y tel.&nbsp; &nbsp; &nbsp;&nbsp;</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe veritatis, deserunt hic vel natus minima obcaecati optio plamet minus, quae reiciendis laboriosam consequatur doloribus numquam, dolor neque soluta magnam est quos</p>
+  <p> <strong>REGISTRATE AQUÍ</strong> </p>
+<form action="Procesamiento.html"  method="get" name="form3" id="form3">
+	
+  <label for="username">Usuario:</label>
+  <br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Contraseña:</label>
+  <br>
+  <input type="password" id="pwd" name="pwd"><br><br>
+  
+  
+  <label for="favcolor">&nbsp;Selecciona tu color favorito:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+
+ 
+  <label for="birthday">Cumpleaños:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+
+ 
+  <label for="email">Correo electronico:</label>
+  <input type="email" id="email" name="email"><br><br>
+
+
+  <label for="phone">Número de teléfono:</label>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{10}" required><br><br>
+<br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+</form> 
+</section>
+<section>
+  <h2 id="marcador4">Contacto&nbsp;&nbsp;</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  <form action="Procesamiento.html" method="get" name="form4" id="form4">
+    <label for="email2">Email:</label>
+    <input type="email" name="email2" id="email2"><br><br>
+    <label for="comentario">Comentario:</label>
+    <textarea name="comentario" maxlength="200" id="comentario">Escribe aquí tu mensaje </textarea>
+    <input name="boton3" type="submit" class="boton_centrar" value="Enviar" id="boton3">
+    
+  </form>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por <a href="../index.html">Brenda Patricia Guzmán Meza</a></h6>
+	
+</footer>
+</body>
+</html>
